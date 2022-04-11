@@ -265,6 +265,7 @@ let NoCoinMetaCain = {
         this.is_local = typeof side_type === 'boolean' ? side_type : true;
         this.startseedserver();
     }
+    
 };
 
 try{
