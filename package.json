@@ -1,0 +1,30 @@
+{
+  "name": "nocoinmetaseed",
+  "version": "0.1.0",
+  "description": "NoCoinMetaChain Seed server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NoCoin",
+    "NoCoinMeta"
+  ],
+  "author": "Svyatoslav Belimov",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "body-parser": "^1.20.0",
+    "child_process": "^1.0.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.3",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "process": "^0.11.10",
+    "redis": "^4.0.6",
+    "socket.io": "^4.4.1",
+    "socket.io-client": "^4.4.1"
+  }
+}
